@@ -1,0 +1,28 @@
+[package]
+name = "simple_color"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Joaquin Bejar <jb@taunais.com>"]
+description = "Simple color library"
+license = "GNU GPLv3"
+
+[dependencies]
+log = ">=0.4.20"
+
+[features]
+#default = ["use_serde"]
+# serder is optional
+#use_serde = ["serde", "serde_json"]
+
+[dev-dependencies]
+async-std = "1.0"
+
+
+[[example]]
+name = "example_simple"
+path = "examples/simple.rs"
+
+[[test]]
+name = "test_simple"
+path = "tests/simple.rs"
