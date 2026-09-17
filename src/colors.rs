@@ -517,4 +517,3 @@ pub const YELLOW3A: &str = "\\x1b[38;5;184m";
 pub const YELLOW4: &str = "\\x1b[38;5;100m";
 pub const YELLOW4A: &str = "\\x1b[38;5;106m";
 pub const YELLOW: &str = "\\x1b[38;5;011m";
-
