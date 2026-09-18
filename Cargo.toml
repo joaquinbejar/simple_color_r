@@ -8,7 +8,7 @@ description = "Simple color library"
 license = "GNU GPLv3"
 
 [dependencies]
-log = ">=0.4.20"
+log = "0.4"
 
 [features]
 #default = ["use_serde"]
@@ -16,7 +16,7 @@ log = ">=0.4.20"
 #use_serde = ["serde", "serde_json"]
 
 [dev-dependencies]
-async-std = "1.0"
+async-std = "1.13"
 
 
 [[example]]

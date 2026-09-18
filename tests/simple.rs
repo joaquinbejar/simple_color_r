@@ -1,11 +1,7 @@
-
-
-
 #[cfg(test)]
 mod tests {
-    use simple_color::colors::{BLACK, RED, YELLOW, Colors};
-    use simple_color::utils::give_color as give_color;
-
+    use simple_color::colors::{Colors, BLACK, RED, YELLOW};
+    use simple_color::utils::give_color;
 
     #[test]
     fn test_color_constants() {
